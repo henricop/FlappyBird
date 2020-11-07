@@ -9,4 +9,4 @@ Game web// Projeto faz parte do curso web-moderno da Udemy. Desenvolvido para pr
 <img  src="https://img.shields.io/static/v1?label=javascript&message=LTS&color=yellow&style=for-the-badge&logo=javascript"/>
 </div>
 
-![]("./FLappy.jpeg")
+![](FLappy.jpeg)
