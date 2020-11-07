@@ -39,9 +39,6 @@ function ParDeBarreiras(altura, abertura, x) {
 
 }
 
-// var b = new ParDeBarreiras(700,300,700);
-// document.querySelector('[wm-flappy]').appendChild(b.elemento);
-
 function Barreiras(altura, largura, abertura, espaco, notificarPonto) {
   this.pares = [
     new ParDeBarreiras(altura, abertura, largura),
@@ -68,7 +65,7 @@ function Barreiras(altura, largura, abertura, espaco, notificarPonto) {
 function Passaro(alturaJogo) {
   var voando = false;
   this.elemento = novoElemento('img', 'passaro');
-  this.elemento.src = '../img/passaro.png';
+  this.elemento.src = 'https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2019/04/logo-twitter-png-fundo-transparente7.png?resize=626%2C510&ssl=1 ';
   this.getY = () => parseInt(this.elemento.style.bottom.split('px')[0])
   this.setY = y => this.elemento.style.bottom = `${y}px`;
 
